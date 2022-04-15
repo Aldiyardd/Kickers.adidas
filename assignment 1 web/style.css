@@ -1,0 +1,132 @@
+body, html {
+    height: 100%;
+    width: 100%;
+      background-color: #EEEEEE;
+      font-family: Verdana, sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #303841;
+    width: 100%;
+    float: right;
+  }
+  li {
+    display: inline-block;
+    border-right: 1px solid #EEEEEE;
+    float:right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ li a:hover {
+   background-color: #00ADB5;
+ }
+ table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+  .head-text3 {
+  color: #000;
+  text-shadow: 3px 3px 20px white;
+  text-align: center;
+
+}
+
+  .item-p {
+   color: #727070;
+ }
+ .head-image {
+   height: 100%;
+   width: 100%;
+}
+  .head-text {
+  color: white;
+  font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  text-shadow: 2px 1px 10px #000;
+}
+.head-text2 {
+  color: white;
+  font-weight: bold;
+  font-size: 300%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  text-shadow: 2px 1px 10px #000;
+  }
+  .card {
+    height: 348px;
+    width: 348px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 #606060;
+    transition: 0.3s;
+  }
+  .card-p {
+    color: red;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #606060;
+}
+  .flex-container {
+    display: flex;
+  }
+  .buy-link:link, .buy-link:visited {
+    background-color: #303841;
+    color: white;
+    display:inline-block;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .buy-link:hover, .buy-link:active{
+    background-color: #00ADB5;
+  }
+  .footer {
+    background-color: #303841;
+    color: white;
+    text-align:center;
+    padding: 60px;
+  }
+  form {
+  width: 400px;
+  background-color: #EEEEEE;
+  text-align: center;
+  margin-left: 30rem;
+  padding: 20px;
+  }
+
+  input, textarea {
+  padding: 12px;
+  margin: 6px 6px 6px 0;
+}
+mark {
+  background-color: red;
+  color: white;
+}
